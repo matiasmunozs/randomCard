@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+  }
+  
+  .carta {
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    
+  }
+  .colortop {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 50px;
+  }
+
+  .number {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+
+  }
+  .colorbottom{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      font-size: 50px;
+  }
